@@ -42,4 +42,11 @@ Just replace the content of the "project" folder with your own project.
 
 4. Based on vite's hot update support, you can see the effect of the modification at any time when developing the game interface.
 
+## future updates plan
+1. More utility functions, such as conflict detection, plugin parameter processing, interface hot update, alias function of jquery-like library, etc.
+
+2. Various small plugins based on this scaffold.
+
+3. Customized compilation interface, which is convenient for developers who are not familiar with code. They can choose modules and generate the plugins they need.
+
 
