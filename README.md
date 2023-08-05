@@ -21,6 +21,7 @@ Just copy these files to your rmmz project's "js/plugins" folder, and they will 
 
 ## develop a new plugin
 1. Create a folder in src/plugins, name it as your plugin name.
+
 2. Import your plugin in src/index.ts.
 ``` 
 import './plugins/yourPlugin.ts';
@@ -34,8 +35,11 @@ Just replace the content of the "project" folder with your own project.
 ## experience optimization compared to native MZ plugin development
 
 1. Provide RMMZ type declaration files for type checking and auto completion.
+
 2. Each plugin can maintain an independent declaration to describe its modification to the global environment. All plugins can see this modification together.
+
 3. Can use module features. You can use external modules for development, or you can use your own modules. Large plugins no longer need to write all the code in one file.
+
 4. Based on vite's hot update support, you can see the effect of the modification at any time when developing the game interface.
 
 
