@@ -1,5 +1,5 @@
 # RMMZ-TS-Vite
-Using vite, typescript and more web-front techs to progress the experience of rmmz games and plugins development.
+A scaffold using vite, typescript and other web-front techs to progress the experience of rmmz games and plugins development.
 
 read this in other languages: [简体中文](README_ch.md)
 

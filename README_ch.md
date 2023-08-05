@@ -1,5 +1,5 @@
 # RMMZ-TS-Vite
-使用 vite, typescript 以及其他前端技术，以提升 rmmz 游戏和插件的开发体验。
+使用 vite, typescript 以及其他前端技术制作的脚手架，以提升 rmmz 游戏和插件的开发体验。
 
 其他语言: [English](README.md)
 
