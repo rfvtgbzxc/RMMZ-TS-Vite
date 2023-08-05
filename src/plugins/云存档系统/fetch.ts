@@ -1,5 +1,3 @@
-//const serverUrl = "http://localhost:7305"
-//const serverUrl = "https://cloudsave.test.newcenturyfans.cn:7305";
 let serverUrl: string = "http://localhost:7305";
 
 type RequestResult = {

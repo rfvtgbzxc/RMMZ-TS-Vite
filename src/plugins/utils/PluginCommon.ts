@@ -2,11 +2,6 @@ declare global {
   var Imported: { [key: string]: string };
 }
 
-// function extendPrototype(prototype: any, alias: any) {
-//   for (const key in alias) {
-//     prototype[key] = alias[key];
-//   }
-// }
 
 /**
  * 批量拓展原型

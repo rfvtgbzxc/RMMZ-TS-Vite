@@ -14,7 +14,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: [resolvePluginFile('index.ts')],
-      name: 'XC_Plugins',
+      name: 'RC_Plugins',
       formats: ['umd',],
       fileName: (_, entry) => `${entry}.js`
     },

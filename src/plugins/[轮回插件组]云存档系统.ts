@@ -1,7 +1,7 @@
 /*:
  * @target MZ
  * @plugindesc  云存档系统
- * @author Xu Chen
+ * @author rfvtgbzxc
  * @url https://www.newcenturyfans.cn
  * @help [轮回插件组]云存档系统.js
  * 
