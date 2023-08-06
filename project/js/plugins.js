@@ -3,6 +3,6 @@
 var $plugins =
 [
 {"name":"[轮回插件组]全局变量","status":true,"description":"","parameters":{}},
-{"name":"[轮回插件组]云存档系统","status":true,"description":"云存档系统","parameters":{}},
+{"name":"侧视角色状态图标","status":true,"description":"令侧视角色的状态图标显示在角色头顶","parameters":{"stateIconOffsetX":"0","stateIconOffsetY":"20"}},
 {"name":"index","status":true,"description":"","parameters":{}}
 ];
