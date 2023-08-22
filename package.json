@@ -15,7 +15,6 @@
   "dependencies": {
     "base64-arraybuffer": "^1.0.2",
     "fs-extra": "^11.1.1",
-    "rmmz-ts": "^1.0.0",
     "vite-plugin-dts": "^2.3.0",
     "vite-plugin-inspect": "^0.7.28"
   }
