@@ -14,7 +14,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: [resolvePluginFile('index.ts')],
-      name: 'RC_Plugins',
+      name: 'EDLS',
       formats: ['umd',],
       fileName: (_, entry) => `${entry}.js`
     },

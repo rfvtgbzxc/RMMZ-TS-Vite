@@ -48,25 +48,25 @@ const alias = {
 }
 
 extendClass(Sprite_Actor, {
-  initMembers: function (this: Sprite_Actor) {
+  initMembers() {
     alias.Sprite_Actor.initMembers.call(this);
     this.createStateIconSprite();
   },
-  createStateIconSprite: function () {
+  createStateIconSprite() {
     this._stateIconSprite = new Sprite_StateIcon();
     this.addChild(this._stateIconSprite);
   },
-  setBattler: function (battler: Game_Actor) {
+  setBattler(battler: Game_Actor) {
     alias.Sprite_Actor.setBattler.call(this, battler);
     this._stateIconSprite.setup(battler);
   },
-  update: function () {
+  update() {
     alias.Sprite_Actor.update.call(this);
     if (this._actor) {
       this.updateStateSprite();
     }
   },
-  updateStateSprite: function () {
+  updateStateSprite() {
     this._stateIconSprite.y = -Math.round((this.mainSprite().height + 40) * 0.9);
     if (this._stateIconSprite.y < 20 - this.y) {
       this._stateIconSprite.y = 20 - this.y;
