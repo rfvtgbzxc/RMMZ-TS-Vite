@@ -10,18 +10,18 @@
   },
   "devDependencies": {
     "typescript": "^5.3.3",
-    "vite": "^4.5.1"
+    "vite": "^5.0.11"
   },
   "dependencies": {
     "base64-arraybuffer": "^1.0.2",
     "fs-extra": "^11.2.0",
     "rmmz-ts": "^1.1.0",
-    "vite-plugin-dts": "^2.3.0",
-    "vite-plugin-inspect": "^0.7.42"
+    "vite-plugin-dts": "^3.7.0",
+    "vite-plugin-inspect": "^0.8.1"
   },
   "packageManager": ">=pnpm@8.0.0",
   "engines": {
-    "node": ">=16.0.0",
+    "node": ">=18.0.0",
     "vscode": "^1.22.0",
     "pnpm": ">=8.0.0"
   }
