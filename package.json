@@ -18,5 +18,11 @@
     "rmmz-ts": "^1.0.5",
     "vite-plugin-dts": "^2.3.0",
     "vite-plugin-inspect": "^0.7.28"
+  },
+  "packageManager": ">=pnpm@8.0.0",
+  "engines": {
+    "node": ">=16.0.0",
+    "vscode": "^1.22.0",
+    "pnpm": ">=8.0.0"
   }
 }
