@@ -9,24 +9,24 @@ dependencies:
     specifier: ^1.0.2
     version: 1.0.2
   fs-extra:
-    specifier: ^11.1.1
+    specifier: ^11.2.0
     version: 11.2.0
   rmmz-ts:
-    specifier: ^1.0.5
+    specifier: ^1.1.0
     version: 1.1.0
   vite-plugin-dts:
     specifier: ^2.3.0
     version: 2.3.0(vite@4.5.1)
   vite-plugin-inspect:
-    specifier: ^0.7.28
+    specifier: ^0.7.42
     version: 0.7.42(vite@4.5.1)
 
 devDependencies:
   typescript:
-    specifier: ^5.0.2
+    specifier: ^5.3.3
     version: 5.3.3
   vite:
-    specifier: ^4.3.9
+    specifier: ^4.5.1
     version: 4.5.1
 
 packages:
