@@ -29,3 +29,6 @@ debug
 meta
 dist
 temp
+
+# 不提交pnpm的锁文件
+pnpm-lock.yaml
