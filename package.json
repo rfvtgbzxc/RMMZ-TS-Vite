@@ -3,6 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "packageManager": "pnpm@9.5.0",
+  "engines": {
+    "node": ">=22.14.0",
+    "vscode": "^1.22.0",
+    "pnpm": ">=9.5.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -18,11 +24,5 @@
     "rmmz-ts": "^1.1.0",
     "vite-plugin-dts": "^3.7.0",
     "vite-plugin-inspect": "^0.8.1"
-  },
-  "packageManager": ">=pnpm@8.0.0",
-  "engines": {
-    "node": ">=18.0.0",
-    "vscode": "^1.22.0",
-    "pnpm": ">=8.0.0"
   }
 }
