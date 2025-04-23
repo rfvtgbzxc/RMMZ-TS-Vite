@@ -3,12 +3,24 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "packageManager": "pnpm@9.5.0",
+  "engines": {
+    "node": ">=22.14.0",
+    "vscode": "^1.22.0",
+    "pnpm": ">=9.5.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "corepack:pnpm": "corepack enable && corepack prepare pnpm@9.5.0 --activate"
   },
   "devDependencies": {
+    "@ruan-cat/commitlint-config": "^1.0.5",
+    "commitizen": "^4.3.1",
+    "cz-git": "^1.11.1",
+    "prettier": "^3.5.3",
+    "prettier-plugin-lint-md": "^1.0.1",
     "typescript": "^5.3.3",
     "vite": "^5.0.11"
   },
@@ -18,11 +30,5 @@
     "rmmz-ts": "^1.1.0",
     "vite-plugin-dts": "^3.7.0",
     "vite-plugin-inspect": "^0.8.1"
-  },
-  "packageManager": ">=pnpm@8.0.0",
-  "engines": {
-    "node": ">=18.0.0",
-    "vscode": "^1.22.0",
-    "pnpm": ">=8.0.0"
   }
 }

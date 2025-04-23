@@ -13,8 +13,6 @@ dist-ssr
 *.local
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
 .idea
 .DS_Store
 *.suo
@@ -23,9 +21,11 @@ dist-ssr
 *.sln
 *.sw?
 
-
 debug
 备份
 meta
 dist
 temp
+
+# 不提交pnpm的锁文件
+pnpm-lock.yaml

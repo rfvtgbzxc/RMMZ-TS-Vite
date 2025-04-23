@@ -1,0 +1,6 @@
+{
+  // 开启prettier作为格式化插件
+  "prettier.enable": true,
+  // 保存即格式化
+  "editor.formatOnSave": true,
+}
